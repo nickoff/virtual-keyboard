@@ -1,0 +1,50 @@
+.key {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  max-width: 42px;
+  height: 43px;
+  font-weight: 700;
+  text-align: center;
+  border: solid 2px;
+  border-radius: 3px;
+  border-color: black;
+  box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 1);
+  padding: 0 5px;
+}
+
+.key__upper {
+  position: relative;
+  bottom: 10px;
+  right: 5px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.key:hover {
+  background-color: rgb(232, 145, 14, 0.3);
+}
+
+.key_control {
+  background-color: darkgrey;
+  max-width: none;
+}
+
+.key_arrow {
+  max-width: 42px;
+}
+
+.key_space {
+  min-width: 300px;
+}
+
+.key_activ {
+  background-color: rgb(232, 145, 14);
+  color:aliceblue;
+  top: 2px;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 1);
+  transition: 0.2s;
+}

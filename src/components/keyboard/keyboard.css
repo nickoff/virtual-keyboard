@@ -1,0 +1,18 @@
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  width: 100%;
+  min-width: 690px;
+  border: solid 2px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.keyboard__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  column-gap: 5px;
+  margin: 0;
+}
