@@ -6,12 +6,12 @@ const cssClasses = {
   WRAPPER: 'wrapper',
 };
 
-function createMain(content, keyCodes) {
+function createMain(content, keyCodes, lang) {
   const component = document.createElement('main');
   component.classList.add(cssClasses.WRAPPER);
 
   const textarea = createTextarea();
-  const keyboard = createKeyboard(keyCodes);
+  const keyboard = createKeyboard(keyCodes, lang);
   const description = createDescription(content);
 
   component.append(textarea);

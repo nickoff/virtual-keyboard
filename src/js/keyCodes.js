@@ -1,5 +1,5 @@
 const keyCodes = {
-  backquote: {
+  Backquote: {
     en: {
       key: '`',
       keyUpper: '~',
@@ -12,9 +12,9 @@ const keyCodes = {
     },
     code: 'Backquote',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  digit1: {
+  Digit1: {
     en: {
       key: '1',
       keyUpper: '!',
@@ -27,9 +27,9 @@ const keyCodes = {
     },
     code: 'Digit1',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  digit2: {
+  Digit2: {
     en: {
       key: '2',
       keyUpper: '@',
@@ -42,10 +42,10 @@ const keyCodes = {
     },
     code: 'Digit2',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
     visibleKeyUpper: true,
   },
-  digit3: {
+  Digit3: {
     en: {
       key: '3',
       keyUpper: '#',
@@ -58,9 +58,9 @@ const keyCodes = {
     },
     code: 'Digit3',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  digit4: {
+  Digit4: {
     en: {
       key: '4',
       keyUpper: '$',
@@ -73,10 +73,10 @@ const keyCodes = {
     },
     code: 'Digit4',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
     visibleKeyUpper: true,
   },
-  digit5: {
+  Digit5: {
     en: {
       key: '5',
       keyUpper: '%',
@@ -89,9 +89,9 @@ const keyCodes = {
     },
     code: 'Digit5',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  digit6: {
+  Digit6: {
     en: {
       key: '6',
       keyUpper: '^',
@@ -104,9 +104,9 @@ const keyCodes = {
     },
     code: 'Digit6',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  digit7: {
+  Digit7: {
     en: {
       key: '7',
       keyUpper: '&',
@@ -119,9 +119,9 @@ const keyCodes = {
     },
     code: 'Digit7',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  digit8: {
+  Digit8: {
     en: {
       key: '8',
       keyUpper: '*',
@@ -134,9 +134,9 @@ const keyCodes = {
     },
     code: 'Digit8',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  digit9: {
+  Digit9: {
     en: {
       key: '9',
       keyUpper: '(',
@@ -149,9 +149,9 @@ const keyCodes = {
     },
     code: 'Digit9',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  digit0: {
+  Digit0: {
     en: {
       key: '0',
       keyUpper: ')',
@@ -164,9 +164,9 @@ const keyCodes = {
     },
     code: 'Digit0',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  minus: {
+  Minus: {
     en: {
       key: '-',
       keyUpper: '_',
@@ -179,9 +179,9 @@ const keyCodes = {
     },
     code: 'Minus',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  equal: {
+  Equal: {
     en: {
       key: '=',
       keyUpper: '+',
@@ -194,9 +194,9 @@ const keyCodes = {
     },
     code: 'Equal',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  вackspace: {
+  Backspace: {
     en: {
       key: 'Backspace',
       keyUpper: '',
@@ -209,9 +209,9 @@ const keyCodes = {
     },
     code: 'Backspace',
     location: 0,
-    class: ['key', 'key_control'],
+    cssClass: ['key', 'key_control'],
   },
-  tab: {
+  Tab: {
     en: {
       key: 'Tab',
       keyUpper: '',
@@ -224,9 +224,9 @@ const keyCodes = {
     },
     code: 'Tab',
     location: 0,
-    class: ['key', 'key_control'],
+    cssClass: ['key', 'key_control'],
   },
-  keyQ: {
+  KeyQ: {
     en: {
       key: 'q',
       keyUpper: 'Q',
@@ -239,9 +239,9 @@ const keyCodes = {
     },
     code: 'KeyQ',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyW: {
+  KeyW: {
     en: {
       key: 'w',
       keyUpper: 'W',
@@ -254,9 +254,9 @@ const keyCodes = {
     },
     code: 'KeyW',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyE: {
+  KeyE: {
     en: {
       key: 'e',
       keyUpper: 'E',
@@ -269,9 +269,9 @@ const keyCodes = {
     },
     code: 'KeyE',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyR: {
+  KeyR: {
     en: {
       key: 'r',
       keyUpper: 'R',
@@ -284,9 +284,9 @@ const keyCodes = {
     },
     code: 'KeyR',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyT: {
+  KeyT: {
     en: {
       key: 't',
       keyUpper: 'T',
@@ -299,9 +299,9 @@ const keyCodes = {
     },
     code: 'KeyT',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyY: {
+  KeyY: {
     en: {
       key: 'y',
       keyUpper: 'Y',
@@ -314,9 +314,9 @@ const keyCodes = {
     },
     code: 'KeyY',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyU: {
+  KeyU: {
     en: {
       key: 'u',
       keyUpper: 'U',
@@ -329,9 +329,9 @@ const keyCodes = {
     },
     code: 'KeyU',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyI: {
+  KeyI: {
     en: {
       key: 'i',
       keyUpper: 'I',
@@ -344,9 +344,9 @@ const keyCodes = {
     },
     code: 'KeyI',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyO: {
+  KeyO: {
     en: {
       key: 'o',
       keyUpper: 'O',
@@ -359,9 +359,9 @@ const keyCodes = {
     },
     code: 'KeyO',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyP: {
+  KeyP: {
     en: {
       key: 'p',
       keyUpper: 'P',
@@ -374,9 +374,9 @@ const keyCodes = {
     },
     code: 'KeyP',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  bracketLeft: {
+  BracketLeft: {
     en: {
       key: '[',
       keyUpper: '{',
@@ -389,9 +389,9 @@ const keyCodes = {
     },
     code: 'BracketLeft',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  bracketRight: {
+  BracketRight: {
     en: {
       key: ']',
       keyUpper: '}',
@@ -404,9 +404,9 @@ const keyCodes = {
     },
     code: 'BracketRight',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  backslash: {
+  Backslash: {
     en: {
       key: '\\',
       keyUpper: '|',
@@ -419,9 +419,9 @@ const keyCodes = {
     },
     code: 'Backslash',
     location: 0,
-    class: ['key', 'key_control'],
+    cssClass: ['key', 'key_control'],
   },
-  capsLock: {
+  CapsLock: {
     en: {
       key: 'Caps Lock',
       keyUpper: '',
@@ -434,9 +434,9 @@ const keyCodes = {
     },
     code: 'CapsLock',
     location: 0,
-    class: ['key', 'key_control'],
+    cssClass: ['key', 'key_control'],
   },
-  keyA: {
+  KeyA: {
     en: {
       key: 'a',
       keyUpper: 'A',
@@ -449,9 +449,9 @@ const keyCodes = {
     },
     code: 'KeyA',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyS: {
+  KeyS: {
     en: {
       key: 's',
       keyUpper: 'S',
@@ -464,9 +464,9 @@ const keyCodes = {
     },
     code: 'KeyS',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyD: {
+  KeyD: {
     en: {
       key: 'd',
       keyUpper: 'D',
@@ -479,9 +479,9 @@ const keyCodes = {
     },
     code: 'KeyD',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyF: {
+  KeyF: {
     en: {
       key: 'f',
       keyUpper: 'F',
@@ -494,9 +494,9 @@ const keyCodes = {
     },
     code: 'KeyF',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyG: {
+  KeyG: {
     en: {
       key: 'g',
       keyUpper: 'G',
@@ -509,9 +509,9 @@ const keyCodes = {
     },
     code: 'KeyG',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyH: {
+  KeyH: {
     en: {
       key: 'h',
       keyUpper: 'H',
@@ -524,9 +524,9 @@ const keyCodes = {
     },
     code: 'KeyH',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyJ: {
+  KeyJ: {
     en: {
       key: 'j',
       keyUpper: 'J',
@@ -539,9 +539,9 @@ const keyCodes = {
     },
     code: 'KeyJ',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyK: {
+  KeyK: {
     en: {
       key: 'k',
       keyUpper: 'K',
@@ -554,9 +554,9 @@ const keyCodes = {
     },
     code: 'KeyK',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyL: {
+  KeyL: {
     en: {
       key: 'l',
       keyUpper: 'L',
@@ -569,9 +569,9 @@ const keyCodes = {
     },
     code: 'KeyL',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  semicolon: {
+  Semicolon: {
     en: {
       key: ';',
       keyUpper: ':',
@@ -584,9 +584,9 @@ const keyCodes = {
     },
     code: 'Semicolon',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  quote: {
+  Quote: {
     en: {
       key: '\'',
       keyUpper: '"',
@@ -599,9 +599,9 @@ const keyCodes = {
     },
     code: 'Quote',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  enter: {
+  Enter: {
     en: {
       key: 'Enter',
       keyUpper: '',
@@ -614,9 +614,9 @@ const keyCodes = {
     },
     code: 'Enter',
     location: 0,
-    class: ['key', 'key_control'],
+    cssClass: ['key', 'key_control'],
   },
-  shiftLeft: {
+  ShiftLeft: {
     en: {
       key: 'Shift',
       keyUpper: '',
@@ -629,9 +629,9 @@ const keyCodes = {
     },
     code: 'ShiftLeft',
     location: 1,
-    class: ['key', 'key_control'],
+    cssClass: ['key', 'key_control'],
   },
-  keyZ: {
+  KeyZ: {
     en: {
       key: 'z',
       keyUpper: 'Z',
@@ -644,9 +644,9 @@ const keyCodes = {
     },
     code: 'KeyZ',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyX: {
+  KeyX: {
     en: {
       key: 'x',
       keyUpper: 'X',
@@ -659,9 +659,9 @@ const keyCodes = {
     },
     code: 'KeyX',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyC: {
+  KeyC: {
     en: {
       key: 'c',
       keyUpper: 'C',
@@ -674,9 +674,9 @@ const keyCodes = {
     },
     code: 'KeyC',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyV: {
+  KeyV: {
     en: {
       key: 'v',
       keyUpper: 'V',
@@ -689,9 +689,9 @@ const keyCodes = {
     },
     code: 'KeyV',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyB: {
+  KeyB: {
     en: {
       key: 'b',
       keyUpper: 'B',
@@ -704,9 +704,9 @@ const keyCodes = {
     },
     code: 'KeyB',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyN: {
+  KeyN: {
     en: {
       key: 'n',
       keyUpper: 'N',
@@ -719,9 +719,9 @@ const keyCodes = {
     },
     code: 'KeyN',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  keyM: {
+  KeyM: {
     en: {
       key: 'm',
       keyUpper: 'M',
@@ -734,9 +734,9 @@ const keyCodes = {
     },
     code: 'KeyM',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  comma: {
+  Comma: {
     en: {
       key: ',',
       keyUpper: '<',
@@ -749,9 +749,9 @@ const keyCodes = {
     },
     code: 'Comma',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  period: {
+  Period: {
     en: {
       key: '.',
       keyUpper: '>',
@@ -764,9 +764,9 @@ const keyCodes = {
     },
     code: 'Period',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  slash: {
+  Slash: {
     en: {
       key: '/',
       keyUpper: '?',
@@ -779,9 +779,9 @@ const keyCodes = {
     },
     code: 'Slash',
     location: 0,
-    class: ['key'],
+    cssClass: ['key'],
   },
-  arrowUp: {
+  ArrowUp: {
     en: {
       key: '↑',
       keyUpper: '↑',
@@ -794,9 +794,9 @@ const keyCodes = {
     },
     code: 'ArrowUp',
     location: 0,
-    class: ['key', 'key_control', 'key_arrow'],
+    cssClass: ['key', 'key_control', 'key_arrow'],
   },
-  shiftRight: {
+  ShiftRight: {
     en: {
       key: 'Shift',
       keyUpper: '',
@@ -809,9 +809,9 @@ const keyCodes = {
     },
     code: 'ShiftRight',
     location: 2,
-    class: ['key', 'key_control'],
+    cssClass: ['key', 'key_control'],
   },
-  controlLeft: {
+  ControlLeft: {
     en: {
       key: 'Ctrl',
       keyUpper: '',
@@ -824,9 +824,9 @@ const keyCodes = {
     },
     code: 'ControlLeft',
     location: 1,
-    class: ['key', 'key_control'],
+    cssClass: ['key', 'key_control'],
   },
-  metaLeft: {
+  MetaLeft: {
     en: {
       key: 'Win',
       keyUpper: '',
@@ -839,9 +839,9 @@ const keyCodes = {
     },
     code: 'MetaLeft',
     location: 1,
-    class: ['key', 'key_control'],
+    cssClass: ['key', 'key_control'],
   },
-  altLeft: {
+  AltLeft: {
     en: {
       key: 'Alt',
       keyUpper: '',
@@ -854,9 +854,9 @@ const keyCodes = {
     },
     code: 'AltLeft',
     location: 1,
-    class: ['key', 'key_control'],
+    cssClass: ['key', 'key_control'],
   },
-  space: {
+  Space: {
     en: {
       key: '',
       keyUpper: '',
@@ -869,9 +869,9 @@ const keyCodes = {
     },
     code: 'Space',
     location: 0,
-    class: ['key', 'key_control'],
+    cssClass: ['key', 'key_control', 'key_space'],
   },
-  altRight: {
+  AltRight: {
     en: {
       key: 'Alt',
       keyUpper: '',
@@ -884,9 +884,9 @@ const keyCodes = {
     },
     code: 'AltRight',
     location: 2,
-    class: ['key', 'key_control'],
+    cssClass: ['key', 'key_control'],
   },
-  arrowLeft: {
+  ArrowLeft: {
     en: {
       key: '←',
       keyUpper: '←',
@@ -899,9 +899,9 @@ const keyCodes = {
     },
     code: 'ArrowLeft',
     location: 0,
-    class: ['key', 'key_control', 'key_arrow'],
+    cssClass: ['key', 'key_control', 'key_arrow'],
   },
-  arrowDown: {
+  ArrowDown: {
     en: {
       key: '↓',
       keyUpper: '↓',
@@ -914,9 +914,9 @@ const keyCodes = {
     },
     code: 'ArrowDown',
     location: 0,
-    class: ['key', 'key_control', 'key_arrow'],
+    cssClass: ['key', 'key_control', 'key_arrow'],
   },
-  arrowRight: {
+  ArrowRight: {
     en: {
       key: '→',
       keyUpper: '→',
@@ -929,9 +929,9 @@ const keyCodes = {
     },
     code: 'ArrowRight',
     location: 0,
-    class: ['key', 'key_control', 'key_arrow'],
+    cssClass: ['key', 'key_control', 'key_arrow'],
   },
-  controlRight: {
+  ControlRight: {
     en: {
       key: 'Ctrl',
       keyUpper: '',
@@ -944,7 +944,7 @@ const keyCodes = {
     },
     code: 'ControlRight',
     location: 2,
-    class: ['key', 'key_control'],
+    cssClass: ['key', 'key_control'],
   },
 };
 
