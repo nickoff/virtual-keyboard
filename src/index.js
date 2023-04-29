@@ -4,6 +4,22 @@ import content from './js/content.js';
 import keyCodes from './js/keyCodes.js';
 import createKeyboard from './js/keyboard.js';
 
+const switchLang = (lang) => {
+  document.querySelector('.title').innerHTML = content.title[lang];
+  document.querySelector('.description').innerHTML = content.description[lang];
+  document.querySelector('.keyboard').innerHTML = createKeyboard(keyCodes, lang).innerHTML;
+};
+
+const lightKeyOn = (code) => {
+  const downKey = document.getElementById(code);
+  if (code !== 'CapsLock') { downKey.classList.add('key_activ'); } else { downKey.classList.toggle('key_activ'); }
+};
+
+const lightKeyOff = (code) => {
+  const downKey = document.getElementById(code);
+  if (code !== 'CapsLock') { downKey.classList.remove('key_activ'); }
+};
+
 window.onload = () => {
   let lang = 'en';
 
@@ -23,9 +39,13 @@ window.onload = () => {
     if ((event.altKey) && (event.shiftKey)) {
       if (lang === 'en') { lang = 'ru'; } else { lang = 'en'; }
       localStorage.setItem('lang', lang);
-      document.querySelector('.title').innerHTML = content.title[lang];
-      document.querySelector('.description').innerHTML = content.description[lang];
-      document.querySelector('.keyboard').innerHTML = createKeyboard(keyCodes, lang).innerHTML;
+      switchLang(lang);
     }
+    lightKeyOn(event.code);
+    event.preventDefault();
+  });
+
+  document.addEventListener('keyup', (event) => {
+    lightKeyOff(event.code);
   });
 };
