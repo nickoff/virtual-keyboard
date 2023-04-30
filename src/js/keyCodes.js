@@ -858,13 +858,13 @@ const keyCodes = {
   },
   Space: {
     en: {
-      key: '',
-      keyUpper: '',
+      key: ' ',
+      keyUpper: ' ',
       visibleKeyUpper: false,
     },
     ru: {
-      key: '',
-      keyUpper: '',
+      key: ' ',
+      keyUpper: ' ',
       visibleKeyUpper: false,
     },
     code: 'Space',

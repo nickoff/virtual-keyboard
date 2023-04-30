@@ -81,10 +81,6 @@ html {
   font-weight: 400;
 }
 
-.key:hover {
-  background-color: rgb(232, 145, 14, 0.3);
-}
-
 .key_control {
   background-color: darkgrey;
   max-width: none;

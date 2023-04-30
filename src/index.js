@@ -11,13 +11,32 @@ const switchLang = (lang) => {
 };
 
 const lightKeyOn = (code) => {
-  const downKey = document.getElementById(code);
-  if (code !== 'CapsLock') { downKey.classList.add('key_activ'); } else { downKey.classList.toggle('key_activ'); }
+  if (Object.keys(keyCodes).includes(code)) {
+    const downKey = document.getElementById(code);
+    if (code !== 'CapsLock') { downKey.classList.add('key_activ'); } else { downKey.classList.toggle('key_activ'); }
+  }
 };
 
 const lightKeyOff = (code) => {
-  const downKey = document.getElementById(code);
-  if (code !== 'CapsLock') { downKey.classList.remove('key_activ'); }
+  if (Object.keys(keyCodes).includes(code)) {
+    const downKey = document.getElementById(code);
+    if (code !== 'CapsLock') { downKey.classList.remove('key_activ'); }
+  }
+};
+
+const enterChar = (code, lang) => {
+  if (Object.keys(keyCodes).includes(code)) {
+    const textareaContent = document.querySelector('.textarea');
+    if (keyCodes[code].cssClass.length === 1
+    || keyCodes[code].cssClass.length === 3) {
+      textareaContent.textContent += keyCodes[code][lang].key;
+      textareaContent.setSelectionRange(
+        textareaContent.textContent.length,
+        textareaContent.textContent.length,
+      );
+      textareaContent.focus();
+    }
+  }
 };
 
 window.onload = () => {
@@ -42,10 +61,21 @@ window.onload = () => {
       switchLang(lang);
     }
     lightKeyOn(event.code);
+    enterChar(event.code, lang);
     event.preventDefault();
   });
 
   document.addEventListener('keyup', (event) => {
     lightKeyOff(event.code);
+  });
+
+  const keyboardHundler = document.querySelector('.keyboard');
+  keyboardHundler.addEventListener('mousedown', (event) => {
+    lightKeyOn(event.target.id);
+    enterChar(event.target.id, lang);
+  });
+
+  keyboardHundler.addEventListener('mouseup', (event) => {
+    lightKeyOff(event.target.id);
   });
 };
