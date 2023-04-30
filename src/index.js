@@ -112,6 +112,7 @@ window.onload = () => {
     } else {
       enterChar(event.target.id, lang);
     }
+    event.preventDefault();
   });
 
   keyboardHundler.addEventListener('mouseup', (event) => {
