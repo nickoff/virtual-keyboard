@@ -50,7 +50,7 @@ const enterChar = (code, lang, upperKey = false) => {
       keepFocusContent(textareaContent);
     }
     if (code === 'Tab') {
-      textareaContent.textContent += '    ';
+      textareaContent.textContent += '\t';
       keepFocusContent(textareaContent);
     }
     if (code === 'Enter') {
